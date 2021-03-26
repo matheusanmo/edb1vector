@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ITERATOR_H	src/iterator.h	2;"	d
+VECTOR_H	src/vector.h	2;"	d
+clear	src/main.cpp	/^    void vector<T>::clear(void) {$/;"	f	class:sc::vector
+copy_array	src/main.cpp	/^    T* copy_array(const T*& array, size_t size, T*& new_array = nullptr) {$/;"	f	namespace:sc
+diff_t	src/iterator.h	/^      typedef std::ptrdiff_t diff_t;$/;"	t	class:sc::iterator
+init_data	src/main.cpp	/^        void vector<T>::init_data(vector::size_type size) {$/;"	f	class:sc::vector
+iterator	src/iterator.h	/^  class iterator {$/;"	c	namespace:sc
+iterator	src/iterator.h	/^  iterator<T>::iterator(const iterator& rhs) {$/;"	f	class:sc::iterator
+iterator	src/iterator.h	/^  iterator<T>::iterator(const iterator::pointer& p) {$/;"	f	class:sc::iterator
+iterator	src/iterator.h	/^  iterator<T>::iterator(void) {$/;"	f	class:sc::iterator
+iterator_category	src/iterator.h	/^      typedef std::bidirectional_iterator_tag iterator_category;$/;"	t	class:sc::iterator
+m_capacity	src/main.cpp	/^            size_type m_capacity; \/\/ capacidade alocada$/;"	m	class:sc::vector	file:
+m_current	src/iterator.h	/^      pointer m_current;$/;"	m	class:sc::iterator
+m_data	src/main.cpp	/^            pointer   m_data;     \/\/ array interno dinamico$/;"	m	class:sc::vector	file:
+m_size	src/main.cpp	/^            size_type m_size;     \/\/ quantidade de elementos$/;"	m	class:sc::vector	file:
+m_storage	src/vector.h	/^        T *m_storage;$/;"	m	class:sc::vector
+main	src/main.cpp	/^int main() { \/\/ int argc, char* argv[]) {$/;"	f
+operator !=	src/iterator.h	/^  bool iterator<T>::operator!=(const iterator& other) const {$/;"	f	class:sc::iterator
+operator *	src/iterator.h	/^  typename iterator<T>::reference iterator<T>::operator*() const {$/;"	f	class:sc::iterator
+operator ++	src/iterator.h	/^  iterator<T>& iterator<T>::operator++() {$/;"	f	class:sc::iterator
+operator ++	src/iterator.h	/^  iterator<T>& iterator<T>::operator++(int n) {$/;"	f	class:sc::iterator
+operator --	src/iterator.h	/^  iterator<T>& iterator<T>::operator--() {$/;"	f	class:sc::iterator
+operator --	src/iterator.h	/^  iterator<T>& iterator<T>::operator--(int n) {$/;"	f	class:sc::iterator
+operator =	src/iterator.h	/^  iterator<T>& iterator<T>::operator=(const iterator& rhs) {$/;"	f	class:sc::iterator
+operator =	src/main.cpp	/^    vector<T>& vector<T>::operator=(const vector& rhs) {$/;"	f	class:sc::vector
+operator =	src/main.cpp	/^    vector<T>& vector<T>::operator=(std::initializer_list<T> ilist) {$/;"	f	class:sc::vector
+operator ==	src/iterator.h	/^  bool iterator<T>::operator==(const iterator& other) const {$/;"	f	class:sc::iterator
+pointer	src/iterator.h	/^      typedef value_type*    pointer;$/;"	t	class:sc::iterator
+push_back	src/main.cpp	/^    void vector<T>::push_back(const value_type& value) {$/;"	f	class:sc::vector
+reference	src/iterator.h	/^      typedef value_type&    reference;$/;"	t	class:sc::iterator
+reserve	src/main.cpp	/^    void vector<T>::reserve(size_type new_cap) {$/;"	f	class:sc::vector
+sc	src/iterator.cpp	/^namespace sc {$/;"	n	file:
+sc	src/iterator.h	/^namespace sc {$/;"	n
+sc	src/main.cpp	/^namespace sc {$/;"	n	file:
+sc	src/vector.h	/^namespace sc {$/;"	n
+size	src/main.cpp	/^    typename vector<T>::size_type vector<T>::size(void) const {$/;"	f	class:sc::vector
+value_type	src/iterator.h	/^      typedef T              value_type;$/;"	t	class:sc::iterator
+vector	src/main.cpp	/^            vector(InputIterator first, InputIterator last) {$/;"	f	class:sc::vector
+vector	src/main.cpp	/^        vector<T>::vector(const vector& other) {$/;"	f	class:sc::vector
+vector	src/main.cpp	/^        vector<T>::vector(size_type size) {$/;"	f	class:sc::vector
+vector	src/main.cpp	/^        vector<T>::vector(std::initializer_list<T> ilist) {$/;"	f	class:sc::vector
+vector	src/main.cpp	/^        vector<T>::vector(void) {$/;"	f	class:sc::vector
+vector	src/main.cpp	/^    class vector {$/;"	c	namespace:sc	file:
+vector	src/vector.h	/^        vector(Iter first, Iter last) {$/;"	f	class:sc::vector
+vector	src/vector.h	/^    class vector {$/;"	c	namespace:sc
+vector	src/vector.h	/^  vector::vector(size_type n) {$/;"	f	class:sc::vector
+~vector	src/main.cpp	/^        vector<T>::~vector() {$/;"	f	class:sc::vector
+~vector	src/vector.h	/^  vector::~vector(void) {$/;"	f	class:sc::vector
